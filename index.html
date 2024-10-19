@@ -1,0 +1,683 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="Untree.co">
+	<link rel="shortcut icon" href="favicon.png">
+
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&family=Work+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+
+	<link rel="stylesheet" href="fonts/icomoon/style.css">
+	<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+
+	<link rel="stylesheet" href="css/tiny-slider.css">
+	<link rel="stylesheet" href="css/aos.css">
+	<link rel="stylesheet" href="css/flatpickr.min.css">
+	<link rel="stylesheet" href="css/glightbox.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="scss/style.scss">
+
+	<title>Okhavihana &mdash; Transformando Comunidades</title>
+</head>
+<body>
+
+	<div class="site-mobile-menu site-navbar-target">
+		<div class="site-mobile-menu-header">
+			<div class="site-mobile-menu-close">
+				<span class="icofont-close js-menu-toggle"></span>
+			</div>
+		</div>
+		<div class="site-mobile-menu-body"></div>
+	</div>
+
+	<nav class="site-nav">
+	<div class="container">
+		<div class="menu-bg-wrap">
+			<div class="site-navigation">
+				<div class="row g-0 align-items-center">
+					<div class="col-2">
+						<a href="index.html" class="logo m-0 float-start text-white">Associação Okhavihana</a>
+					</div>
+					<div class="col-8 text-center">
+						<ul class="js-clone-nav d-none d-lg-inline-block text-start site-menu mx-auto">
+							<li class="active"><a href="index.html">Home</a></li>
+							<li class="has-children">
+								<a href="causes.html">Áreas Temáticas</a>
+								<ul class="dropdown">
+									<li><a href="#">Agricultura e Segurança Alimentar e Nutricional</a></li>
+									<li><a href="#">Direitos de Terras e Recursos Naturais</a></li>
+									<li><a href="#">Ambiente e Desenvolvimento</a></li>
+									<li><a href="#">Monitoria e Advocacia da Governação</a></li>
+									<li><a href="#">Direitos Humanos, Gênero e Diversidade</a></li>
+								</ul>
+							</li>
+							<li><a href="about.html">Sobre Nós</a></li>
+							<li><a href="news.html">Notícias</a></li>
+							<li><a href="contact.html">Contato</a></li>
+						</ul>
+					</div>
+					<div class="col-2 text-end">
+						<a href="#" class="burger ms-auto float-end site-menu-toggle js-menu-toggle d-inline-block d-lg-none light">
+							<span></span>
+						</a>
+
+						<a href="#" class="call-us d-flex align-items-center">
+							<span class="icon-phone"></span>
+							<span>+258 84 6308200</span>
+						</a>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</nav>
+
+
+	<div class="hero overlay" style="background-image: url('images/hero_2.jpg')">
+		<div class="container">
+			<div class="row align-items-center justify-content-between">
+				<div class="col-lg-6 text-left">
+					<span class="subheading-white text-white mb-3" data-aos="fade-up"><img src="favicon.png" style="width:150px;"></span>
+					<h1 class="heading text-white mb-2" data-aos="fade-up">Transformando Vidas e Comunidades</h1>
+					<p data-aos="fade-up" class=" mb-5 text-white lead text-white-50">Promovemos o desenvolvimento sustentável, segurança alimentar, e o empoderamento de comunidades através de práticas inovadoras e inclusivas.</p>
+					<p data-aos="fade-up"  data-aos-delay="100">
+						<a href="contact.html" class="btn btn-primary me-4 d-inline-flex align-items-center"> <span class="icon-attach_money me-2"></span><span>Apoie Agora</span></a> 
+						<a href="https://www.youtube.com/watch?v=mwtbEGNABWU" class="text-white glightbox d-inline-flex align-items-center"><span class="icon-play me-2"></span><span>Assista ao Vídeo</span></a>
+					</p>		
+					
+				</div>
+
+				<!--<div class="col-lg-5">
+					<form action="#" class="bg-white p-5 rounded donation-form" data-aos="fade-up">
+						<h3>Formulário de Doação Rápida</h3>
+						<div class="form-field mb-3">
+							<label for="amount-1" class="amount js-amount" data-value="1.00">
+								<input type="radio" id="amount-1" name="radio-amount" checked="true">
+								<span>$1</span>
+							</label>
+
+							<label for="amount-2" class="amount js-amount" data-value="5.00">
+								<input type="radio" id="amount-2" name="radio-amount">
+								<span>$5</span>
+							</label>
+							<label for="amount-3" class="amount js-amount" data-value="25.00">
+								<input type="radio" id="amount-3" name="radio-amount" >
+								<span>$25</span>
+							</label>
+							<label for="amount-4" class="amount js-amount" data-value="100.00">
+								<input type="radio" id="amount-4" name="radio-amount">
+								<span>$100</span>
+							</label>
+
+						</div>
+						<div class="field-icon">
+							<span>$</span>
+							<input type="text" placeholder="0.00" class="form-control px-4" name="donate-value" value="1.00">
+						</div>
+						<div class="form-field mb-3">
+							<input type="text" placeholder="Nome" class="form-control px-4">
+							<input type="email" placeholder="Email" class="form-control px-4">
+						</div>
+
+						<input type="submit" value="Doar agora" class="btn btn-secondary w-100">
+					</form>
+				</div>-->
+			</div>
+		</div>
+	</div>
+
+	<!-- Visão e Missão Start -->
+	<div class="section bg-light">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6" data-aos="fade-up">
+					<div class="vision">
+						<h2>Nossa Visão</h2>
+						<p class="mb-4 lead">Ser uma rede líder das organizações comunitárias em desenvolvimento sustentável e mobilização de recursos para as OCBs, promovendo o progresso e crescimento inter-geracional e a coesão social.
+</p>
+						<p><a href="#" class="link-underline">Saiba Mais</a></p>
+					</div>
+				</div>
+				<div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+					<div class="mission">
+						<h2>Nossa Missão</h2>
+						<p class="mb-4 lead">Capacitar OCBs através de treinamentos, consultorias e elaboração de estudos/pesquisas, propostas comunitárias, fortalecendo suas capacidades institucionais e organizacionais, e ampliando suas oportunidades políticas e economicamente emancipadas.</p>
+						<p><a href="#" class="link-underline">Saiba Mais</a></p>
+					</div>
+				</div>
+			</div>		
+		</div>		
+	</div>
+	<!-- Visão e Missão End -->
+
+	<!-- Áreas Temáticas Start -->
+<div class="section flip-section" style="background-image: url('images/img_v_2-min.jpg')">
+	<div class="blob-1">
+		<img src="images/blob.png" alt="Image" class="img-fluid">
+	</div>
+	<div class="container">
+		<div class="row justify-content-center mb-5">
+			<div class="col-lg-7 text-center" data-aos="fade-up">
+				<span class="subheading-white mb-3 text-white">Áreas Temáticas</span>
+				<h2 class="heading text-white">Nossas Iniciativas</h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-3 position-relative" data-aos="fade-up" data-aos-delay="100">
+				<div class="card-flip">
+					<div class="flip">
+						<div class="front">
+							<!-- front content -->
+							<div class="flip-content-wrap">
+								<br>
+								<h3>Agricultura, Segurança Alimentar e Nutricional:</h3>
+							</div>
+						</div>
+						<div class="back">
+							<!-- back content -->
+							<div class="flip-content-wrap">
+								<p>Desenvolvimento do mercado local.</p>
+								<p>Promoção de práticas agrícolas sustentáveis.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- End Card Flip -->
+			</div>
+			<div class="col-lg-3 position-relative" data-aos="fade-up" data-aos-delay="200">
+				<div class="card-flip">
+					<div class="flip">
+						<div class="front">
+							<!-- front content -->
+							<div class="flip-content-wrap">
+								<br>
+								<h3>Terras, Ambiente e Recursos Naturais</h3>
+							</div>
+						</div>
+						<div class="back">
+							<!-- back content -->
+							<div class="flip-content-wrap">
+								<p>Uso sustentável da terra e recursos naturais.</p>
+								<p>Conservação ambiental e reflorestamento.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 position-relative" data-aos="fade-up" data-aos-delay="300">
+				<div class="card-flip">
+					<div class="flip">
+						<div class="front">
+							<!-- front content -->
+							<div class="flip-content-wrap">
+								<span><br></span>
+								<h3>Governação e Direitos Humanos</h3>
+							</div>
+						</div>
+						<div class="back">
+							<!-- back content -->
+							<div class="flip-content-wrap">
+								<p>Combate à corrupção e uso transparente de recursos.</p>
+								<p>Promoção de direitos humanos e igualdade de acesso a recursos.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 position-relative" data-aos="fade-up" data-aos-delay="400">
+				<div class="card-flip">
+					<div class="flip">
+						<div class="front">
+							<!-- front content -->
+							<div class="flip-content-wrap">
+								<br>
+								<h3>Género e Diversidade</h3>
+							</div>
+						</div>
+						<div class="back">
+							<!-- back content -->
+							<div class="flip-content-wrap">
+								<p>Empoderamento socioeconómico de mulheres e meninas.</p>
+								<p>Igualdade de gênero e proteção contra violência.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>		
+	</div>		
+</div>
+<!-- Áreas Temáticas End -->
+
+
+
+
+
+
+<div class="section">
+		<div class="container">
+			<div class="row mb-5 align-items-center justify-content-between">
+				<div class="col-lg-5" data-aos="fade-up" data-aos-delay="0">
+					<span class="subheading mb-3">Quem Somos</span>
+					<h2 class="heading">Sobre a Okhavihana</h2>
+					<p>A Associação Okhavihana é uma organização comunitária dedicada ao desenvolvimento sustentável, capacitando comunidades através de práticas agrícolas inovadoras, empoderamento feminino e promoção dos direitos humanos.</p>
+				</div>
+
+				<div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+					<blockquote>
+						“Acreditamos que o empoderamento das comunidades locais é a chave para um futuro sustentável e inclusivo, garantindo recursos essenciais e promovendo igualdade.”
+					</blockquote>
+				</div>
+			</div>
+			<div class="row justify-content-between">
+				<div class="col-lg-5 pe-lg-5" data-aos="fade-up" data-aos-delay="200">
+
+					<ul class="nav nav-pills mb-5 custom-nav-pills" id="pills-tab" role="tablist">
+						<li class="nav-item" role="presentation">
+							<button class="nav-link active" id="pills-mission-tab" data-bs-toggle="pill" data-bs-target="#pills-mission" type="button" role="tab" aria-controls="pills-mission" aria-selected="true">Nossa Missão</button>
+						</li>
+						<li class="nav-item" role="presentation">
+							<button class="nav-link" id="pills-values-tab" data-bs-toggle="pill" data-bs-target="#pills-values" type="button" role="tab" aria-controls="pills-values" aria-selected="false">Nossa Visão</button>
+						</li>
+						<li class="nav-item" role="presentation">
+							<button class="nav-link" id="pills-history-tab" data-bs-toggle="pill" data-bs-target="#pills-history" type="button" role="tab" aria-controls="pills-history" aria-selected="false">Nossos Valores</button>
+						</li>
+					</ul>
+					<div class="tab-content" id="pills-tabContent">
+						<div class="tab-pane fade show active" id="pills-mission" role="tabpanel" aria-labelledby="pills-mission-tab">
+							<h2 class="mb-3 text-primary fw-bold">Nossa Missão</h2>
+							<p>Capacitar OCBs através de treinamentos, consultorias e elaboração de estudos/pesquisas, propostas comunitárias, fortalecendo suas capacidades institucionais e organizacionais, e ampliando suas oportunidades políticas e economicamente emancipadas.
+
+</p>
+							<p>Trabalhamos para garantir que cada comunidade tenha acesso aos recursos necessários para o seu desenvolvimento e bem-estar.</p>
+							<p class="mt-5">
+								<a href="#" class="btn btn-primary me-4"></a>
+								<a href="#" class="link-more">Saiba Mais <span class="icon-chevron-right"></span></a>
+							</p>
+						</div>
+						<div class="tab-pane fade" id="pills-values" role="tabpanel" aria-labelledby="pills-values-tab">
+							<h2 class="mb-3 text-primary fw-bold">Nossa visão</h2>
+							<p>Ser uma rede líder das organizações comunitárias em desenvolvimento sustentável e mobilização de recursos para as OCBs, promovendo o progresso e crescimento inter-geracional e a coesão social.
+</p>
+							<p>Defendemos a igualdade de gênero, os direitos humanos e a preservação dos recursos naturais.</p>
+							<p class="mt-5">
+								<a href="#" class="btn btn-primary me-4">Seja Voluntário</a>
+								<a href="#" class="link-more">Saiba Mais <span class="icon-chevron-right"></span></a>
+							</p>
+						</div>
+						<div class="tab-pane fade" id="pills-history" role="tabpanel" aria-labelledby="pills-history-tab">
+
+							<h2 class="mb-3 text-primary fw-bold">Nossos Valores</h2>
+							<p>No desenvolvimento do seu objecto a OKHAVIHANA e seus sócios ou colaboradores primam pelos seguintes princípios e valores:
+</p>
+							<p><ul>
+								<li>Compromisso com a comunidade e suas formas de organização;</li>
+								<li>Excelência;</li>
+								<li>Transparência;</li>
+								<li>Inovação;</li>
+								<li>Sustentabilidade;</li>
+
+							</ul></p>
+							<p class="mt-5">
+								<a href="#" class="btn btn-primary me-4">Seja um Parceiro</a>
+								<a href="#" class="link-more">Saiba Mais <span class="icon-chevron-right"></span></a>
+							</p>
+						</div>
+					</div>
+
+				</div>
+				<div class="col-lg-6">
+					<div class="overlap-imgs">
+						<img src="images/img_v_2-min.jpg" alt="Image" class="img-fluid rounded" data-aos="fade-up" data-aos="100">
+						<img src="images/img_v_3-min.jpg" alt="Image" class="img-fluid rounded" data-aos="fade-up" data-aos="200">
+					</div> 
+				</div>		
+			</div>		
+		</div>		
+	</div>
+
+
+	<div class="section cause-section bg-light">
+
+		<div class="container">
+			<div class="row justify-content-center mb-5">
+				<div class="col-lg-6 text-center" data-aos="fade-up" data-aos-delay="100">
+					<span class="subheading mb-3">Áreas temáticas</span>
+					<h2 class="heading">Causas em Destaque</h2>
+					<p>Participe das nossas iniciativas que promovem o desenvolvimento sustentável, a segurança alimentar e o empoderamento das comunidades mais vulneráveis.</p>
+
+					<div id="features-slider-nav" class="mt-5 d-flex justify-content-center">
+						<button  class="btn btn-primary prev d-flex align-items-center me-2" data-controls="prev"> <span class="icon-chevron-left"></span> <span class="ms-3">Anterior</span></button>
+						<button class="btn btn-primary next d-flex align-items-center" data-controls="next"><span class="me-3">Próximo</span> <span class="icon-chevron-right"></span></button>
+					</div>
+				</div>
+			</div>	
+		</div>
+
+<div class="container mb-5">
+	<div class="features-slider-wrap position-relative" data-aos="fade-up" data-aos-delay="200">
+		<div class="features-slider" id="features-slider">
+
+			<div class="item">
+				<div class="causes-item bg-white">
+					<a href="#"><img src="images/sustentavel.jpg" alt="Image" class="img-fluid mb-4 rounded"></a>
+					<div class="px-4 pb-5 pt-3">
+						<h3><a href="#">Terras, ambiente e recursos naturais</a></h3>
+						<p>A organização promove práticas sustentáveis de uso da terra, empreendedorismo ecológico, conservação ambiental e direitos de posse, focando mulheres.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="item">
+				<div class="causes-item bg-white">
+					<a href="#"><img src="images/agricultura.jpg" alt="Image" class="img-fluid mb-4 rounded"></a>
+					<div class="px-4 pb-5 pt-3">
+						<h3><a href="#">Agricultura, segurança alimentar e nutricional</a></h3>
+						<p>A organização apoia práticas agrícolas sustentáveis, diversificação de renda, fortalecimento de mercados locais, e nutrição familiar para garantir segurança alimentar e resiliência comunitária.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="item">
+				<div class="causes-item bg-white">
+					<a href="#"><img src="images/lgbt.jpg" alt="Image" class="img-fluid mb-4 rounded"></a>
+					<div class="px-4 pb-5 pt-3">
+						<h3><a href="#">Género e diversidade</a></h3>
+						<p>Na província de Niassa, normas socioculturais dificultam o acesso das mulheres a recursos financeiros. A organização promove empoderamento econômico, igualdade de gênero e oportunidades para melhorar segurança alimentar e desenvolvimento comunitário.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="item">
+				<div class="causes-item bg-white">
+					<a href="#"><img src="images/direitos.jpg" alt="Image" class="img-fluid mb-4 rounded"></a>
+					<div class="px-4 pb-5 pt-3">
+						<h3><a href="#">Governação e direitos humanos</a></h3>
+						<p>A organização promove a boa governança, direitos humanos, acesso igualitário aos recursos naturais, e conscientização dos cidadãos sobre seus direitos, visando a dignidade e segurança alimentar nas comunidades.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="section flip-section secondary-bg" style="background-image: url('images/img_v_4-min.jpg')">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-7 mx-auto text-center">
+				<span class="subheading-white mb-3 text-white" data-aos="fade-up">Apoie Agora</span>
+				<h3 class="mb-4 heading text-white" data-aos="fade-up">Vamos Ajudar as Comunidades Carentes</h3>
+				<a href="#" class="btn btn-outline-white me-3" data-aos="fade-up" data-aos-delay="100">Torne-se Voluntário</a> 
+				<a href="#" class="btn btn-outline-white" data-aos="fade-up" data-aos-delay="200"></a>
+			</div>		
+		</div>		
+	</div>		
+</div>
+
+<div class="section bg-light">
+	<div class="container">
+		<div class="row justify-content-between">
+			<div class="col-lg-5" data-aos="fade-up">
+				<span class="subheading mb-3">Impacto</span>
+				<h2 class="heading mb-4">Explore o Trabalho Voluntário e o Impacto em 2023</h2>
+				<p>Ao longo de 2023, nossas iniciativas impactaram centenas de famílias em áreas rurais, promovendo segurança alimentar, educação e empoderamento comunitário.</p>
+				<p>O apoio de nossos voluntários e doadores foi essencial para ampliar nosso alcance e fornecer recursos críticos para o desenvolvimento sustentável.</p>
+			</div>		
+			<div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+				<div class="row section-counter">
+					<div class="col-lg-6">
+						<div class="counter">
+							<i class="flaticon-social-services d-block text-secondary"></i>
+							<span class="number countup">150</span>
+							<span class="d-block">Novos Projetos</span>
+						</div>
+
+						<div class="counter">
+							<i class="flaticon-charity-money d-block text-secondary"></i>
+							<span class="number">$<span class="countup">2.5</span>M</span>
+							<span class="d-block">Fundos Arrecadados</span>
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<div class="counter mt-5">
+							<i class="flaticon-money-donation d-block text-secondary"></i>
+							<span class="number countup">6200</span>
+							<span class="d-block">Doadores</span>
+						</div>
+
+						<div class="counter">
+							<i class="flaticon-organs-donation d-block text-secondary"></i>
+							<span class="number countup">700</span>
+							<span class="d-block">Voluntários</span>
+						</div>
+					</div>
+				</div>
+			</div>		
+		</div>		
+	</div>		
+</div>
+
+<div class="section bg-light pt-0">
+	<div class="container">
+		<div class="row justify-content-center text-center">
+			<div class="col-lg-5 mb-5" data-aos="fade-up">
+				<span class="subheading mb-1">Atualizações de Notícias</span>
+				<h2 class="heading mb-1">Nossas Notícias</h2>
+				<p>Fique por dentro das últimas iniciativas da Okhavihana e veja como estamos fazendo a diferença em comunidades vulneráveis.</p>
+			</div>		
+		</div>
+		<div class="row">
+			<div class="col-lg-4 col-md-6">
+				<div class="causes-item bg-white">
+					<a href="#"><img src="images/empreendedorismo.jpg" alt="Image" class="img-fluid mb-4 rounded"></a>
+					<div class="px-4 pb-3 pt-3">
+						<span class="date">Julho 15, 2024</span>
+						<h3><a href="#"> Feira de Empreendedorismo e Inovação Sustentável</a></h3>
+						<p>A Feira de Empreendedorismo é uma oportunidade única para conhecer iniciativas locais de eco-empreendedorismo. Agricultores, artesãos e pequenas empresas da província de Niassa irão expor suas soluções inovadoras em áreas como agricultura sustentável, uso eficiente de recursos e energias renováveis.</p>
+						<p><a href="#" class="d-flex align-items-center more2"><span>Leia Mais</span> <span class="icon-chevron-right"></span></a></p>
+					</div>
+				</div>
+			</div>		
+			<div class="col-lg-4 col-md-6">
+				<div class="causes-item bg-white">
+					<a href="#"><img src="images/poverty.jpg" alt="Image" class="img-fluid mb-4 rounded"></a>
+					<div class="px-4 pb-3 pt-3">
+						<span class="date">Janeiro 10, 2025</span>
+						<h3><a href="#">Seminário sobre Segurança Alimentar e Sustentabilidade Rural</a></h3>
+						<p>A Associação Okhavihana realizará um seminário dedicado à segurança alimentar e práticas agrícolas sustentáveis. O evento contará com especialistas em agricultura, que compartilharão conhecimentos sobre métodos de cultivo resilientes às mudanças climáticas.</p>
+						<p><a href="#" class="d-flex align-items-center more2"><span>Leia Mais</span> <span class="icon-chevron-right"></span></a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6">
+				<div class="causes-item bg-white">
+					<a href="#"><img src="images/ambiente.jpg" alt="Image" class="img-fluid mb-4 rounded"></a>
+					<span class="date">Setembro 05, 2023</span>
+					<div class="px-4 pb-3 pt-3">
+						<h3><a href="#"> Dia Mundial do Meio Ambiente: Plantio de Árvores em Comunidades Rurais</a></h3>
+						<p>Em comemoração ao Dia Mundial do Meio Ambiente, a Associação Okhavihana organizará uma ação de plantio de árvores em comunidades rurais. A iniciativa faz parte dos esforços para reflorestar áreas desmatadas, promover a conservação do solo e mitigar os efeitos das mudanças climáticas. Todos os membros da comunidade estão convidados a participar.</p>
+						<p><a href="#" class="d-flex align-items-center more2"><span>Leia Mais</span> <span class="icon-chevron-right"></span></a></p>
+					</div>
+				</div>
+			</div>
+		</div>	
+	</div>		
+</div>
+
+<div class="section sec-instagram pb-0">
+	<div class="container mb-5">
+		<div class="row align-items-center">
+			<div class="col-lg-3" data-aos="fade-up">
+				<span class="subheading mb-3">Linkedin</span>
+				<h2 class="heading">Estamos no Linkedin</h2>
+			</div>
+			<div class="col-lg-7" data-aos="fade-up" data-aos-delay="100">
+				<p>Acompanhe nosso trabalho no Linkedin e veja como nossas ações estão transformando a vida de famílias e comunidades em Moçambique.</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+		<div class="instagram-slider-wrap" data-aos="fade-up" data-aos-delay="200">
+			<div class="instagram-slider" id="instagram-slider">
+
+				<div class="item">
+					<a class="instagram-item" href="https://www.linkedin.com/company/associa%C3%A7%C3%A3o-okhavihana/about/?viewAsMember=true">
+						<span class="icon-linkedin"></span>
+						<img src="images/img_v_8-min.jpg" alt="Image" class="img-fluid">		
+					</a>
+				</div>
+
+				<div class="item">
+					<a class="instagram-item" href="https://www.linkedin.com/company/associa%C3%A7%C3%A3o-okhavihana/about/?viewAsMember=true">
+						<span class="icon-linkedin"></span>
+						<img src="images/img_v_2-min.jpg" alt="Image" class="img-fluid">		
+					</a>
+				</div>
+
+				<div class="item">
+					<a class="instagram-item" href="https://www.linkedin.com/company/associa%C3%A7%C3%A3o-okhavihana/about/?viewAsMember=true">
+						<span class="icon-linkedin"></span>
+						<img src="images/img_v_3-min.jpg" alt="Image" class="img-fluid">		
+					</a>
+				</div>
+
+				<div class="item">
+					<a class="instagram-item" href="https://www.linkedin.com/company/associa%C3%A7%C3%A3o-okhavihana/about/?viewAsMember=true">
+						<span class="icon-linkedin"></span>
+						<img src="images/img_v_4-min.jpg" alt="Image" class="img-fluid">		
+					</a>
+				</div>
+
+				<div class="item">
+					<a class="instagram-item" href="https://www.linkedin.com/company/associa%C3%A7%C3%A3o-okhavihana/about/?viewAsMember=true">
+						<span class="icon-linkedin"></span>
+						<img src="images/img_v_5-min.jpg" alt="Image" class="img-fluid">		
+					</a>
+				</div>
+
+				<div class="item">
+					<a class="instagram-item" href="https://www.linkedin.com/company/associa%C3%A7%C3%A3o-okhavihana/about/?viewAsMember=true">
+						<span class="icon-linkedin"></span>
+						<img src="images/img_v_6-min.jpg" alt="Image" class="img-fluid">		
+					</a>
+				</div>
+
+				<div class="item">
+					<a class="instagram-item" href="https://www.linkedin.com/company/associa%C3%A7%C3%A3o-okhavihana/about/?viewAsMember=true">
+						<span class="icon-linkedin"></span>
+						<img src="images/img_v_7-min.jpg" alt="Image" class="img-fluid">		
+					</a>
+				</div>
+
+
+			</div>
+		</div>
+
+	</div>
+
+	<div class="site-footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-6 col-sm-6 col-md-6 col-lg-3">
+				<div class="widget">
+					<h3>Navegação</h3>
+					<ul class="list-unstyled float-left links">
+						<li><a href="#">Sobre Nós</a></li>
+						<li><a href="#">Doe Agora</a></li>
+						<li><a href="#">Causas</a></li>
+						<li><a href="#">Seja Voluntário</a></li>
+						<li><a href="#">Termos</a></li>
+						<li><a href="#">Privacidade</a></li>
+					</ul>
+				</div> <!-- /.widget -->
+			</div> <!-- /.col-lg-3 -->
+
+			<div class="col-6 col-sm-6 col-md-6 col-lg-3">
+				<div class="widget">
+					<h3>Áreas temáticas</h3>
+					<ul class="list-unstyled float-left links">
+						<li><a href="#">Agricultura e Segurança Alimentar e Nutricional</a></li>
+						<li><a href="#">Direitos de Terras e Recursos Naturais</a></li>
+						<li><a href="#">Ambiente e Desenvolvimento</a></li>
+						<li><a href="#">Monitoria e Advocacia da Governação</a></li>
+						<li><a href="#">Direitos Humanos, Gênero e Diversidade</a></li>
+					</ul>
+				</div> <!-- /.widget -->
+			</div> <!-- /.col-lg-3 -->
+
+			<div class="col-6 col-sm-6 col-md-6 col-lg-3">
+				<div class="widget">
+					<h3>Serviços</h3>
+					<ul class="list-unstyled float-left links">
+						<li><a href="#">Nossas Causas</a></li>
+						<li><a href="#">Voluntariado</a></li>
+						<li><a href="#">Termos e Condições</a></li>
+					</ul>
+				</div> <!-- /.widget -->
+			</div> <!-- /.col-lg-3 -->
+
+			<div class="col-6 col-sm-6 col-md-6 col-lg-3">
+				<div class="widget">
+					<h3>Contato</h3>
+					<address>Avenida do trabalho, Lichinga, Niassa, Moçambique</address>
+					<ul class="list-unstyled links mb-4">
+						<li><a href="tel://258846308200">+258 84 6308200</a></li>
+						<li><a href="mailto:info@okhavihana.org">info@okhavihana.org</a></li>
+					</ul>
+
+					<h3>Conecte-se Conosco</h3>
+					<ul class="list-unstyled social">
+						<li><a href="#"><span class="icon-instagram"></span></a></li>
+						<li><a href="#"><span class="icon-facebook"></span></a></li>
+						<li><a href="https://www.linkedin.com/company/associa%C3%A7%C3%A3o-okhavihana/about/?viewAsMember=true"><span class="icon-linkedin"></span></a></li>
+					</ul>
+				</div> <!-- /.widget -->
+			</div> <!-- /.col-lg-3 -->
+		</div> <!-- /.row -->
+
+		<div class="row mt-5">
+			<div class="col-12 text-center">
+				<p class="copyright">Copyright &copy;<script>document.write(new Date().getFullYear());</script>. Todos os direitos reservados &mdash; Desenvolvido pela <a href="https://iidesign.online/"><span style="color:white;">IDesign</span> <span style="color: crimson;">moz.</span></a>
+				</p>
+			</div>
+		</div>
+	</div> <!-- /.container -->
+</div> <!-- /.site-footer -->
+
+
+
+
+
+
+
+	<!-- Preloader -->
+	<div id="overlayer"></div>
+	<div class="loader">
+		<div class="spinner-border text-primary" role="status">
+			<span class="visually-hidden">Loading...</span>
+		</div>
+	</div>
+
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/tiny-slider.js"></script>
+
+	<script src="js/flatpickr.min.js"></script>
+	<script src="js/glightbox.min.js"></script>
+
+
+	<script src="js/aos.js"></script>
+	<script src="js/navbar.js"></script>
+	<script src="js/counter.js"></script>
+	<script src="js/custom.js"></script>
+</body>
+</html>
